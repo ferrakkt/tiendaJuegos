@@ -5,7 +5,7 @@ public class Game {
 	private int id;
 	private String title;
 	private Genre genero;
-	private double price;
+	private static double price;
 	private int stock;
 	private static int contadorID=0;
 	
@@ -33,7 +33,7 @@ public class Game {
 		return genero;
 	}
 
-	public double getPrice() {
+	public static double getPrice() {
 		return price;
 	}
 
